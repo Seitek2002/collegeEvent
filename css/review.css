@@ -1,0 +1,83 @@
+.review {
+    background: #000;
+    max-height: 200px;
+    padding: 100px 0;
+}
+
+.review__content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.review__swiper {
+    overflow: hidden;
+}
+
+.review__right {
+    position: relative;
+    max-width: 50%;
+}
+
+.review__left {
+    max-width: 50%;
+}
+
+.review__btn {
+    background: url(../img/btn.svg) center no-repeat;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: -20%;
+}
+
+.review__swiper-button-prev {
+    left: -90%;
+}
+
+.review__swiper-button-next {
+    left: -100%;
+}
+
+.review__btn+.review__btn {
+    transform: rotate(180deg);
+}
+
+.review__title {
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 64px;
+}
+
+.review__subtitle {
+    font-family: "Roboto Condensed";
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.review__author {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review__box{
+    max-width: 470px;
+    box-sizing: border-box;
+    padding: 25px 34px;
+    background: #417505;
+    min-height: 500px;
+}
+
+.review__name{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: Roboto Condensed;
+}
+
+.review__text{
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.502972);
+    margin-top: 74px;
+    line-height: 32px;
+}

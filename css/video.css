@@ -1,0 +1,35 @@
+.video {
+    padding: 150px 0;
+    background: yellow;
+}
+
+.video__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video__logo {
+    width: 250px;
+    padding: 150px;
+    background: #fff;
+    border-radius: 100%;
+}
+
+.video__title {
+    font-size: 56px;
+}
+
+.video__descr {
+    font-size: 22px;
+    max-width: 470px;
+    margin: 70px 0;
+    color: rgba(17, 17, 17, 0.50133);
+}
+
+.video__btn {
+    padding: 15px 50px;
+    background: #FF564F;
+    border-radius: 3px;
+    color: white;
+}

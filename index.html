@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENCY</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__content">
+                <h2 class="heder__logo">COMTEHNO</h2>
+                <ul class="header__list">
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__left">
+                    <h1 class="hero__title">
+                        We Create
+                        Amazing Sites
+                        With Ease
+                    </h1>
+                    <h2 class="hero__subtitle">
+                        <img src="./img/logo.png" alt="">
+                        НИКОГДА НЕ ПОЗДНО СТАТЬ ТЕМ, <br> КЕМ ТЕБЕ ХОЧЕТСЯ БЫТЬ
+                    </h2>
+                </div>
+                <div class="hero__right">
+                    <img src="./img/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="video">
+        <div class="container">
+            <div class="video__content">
+                <div class="video__left">
+                    <img class="video__logo" src="./img/logo.png" alt="">
+                </div>
+                <div class="video__right">
+                    <h2 class="video__title">YOUTUBE</h2>
+                    <p class="video__descr">Зайди на ютуб канал нашего колледжа, что бы узнать больше подробностей</p>
+                    <a class="video__btn" href="#">ПЕРЕЙТИ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tech">
+        <div class="container">
+            <div class="tech__content">
+                <div class="tech__top">
+                    <h2 class="tech__title">мы используем</h2>
+                    <p class="tech__descr">В этом блоке показаны технологии которые мы использовали при разработке наших
+                        проектов. Так же мы оставим ссылки на дополнительный материал для более подробного ознакомления.
+                    </p>
+                </div>
+                <div class="tech__bottom">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tech__box">
+                                    <img src="./img/html.svg" alt="" class="tech__img">
+                                    <h2 class="tech__name">HTML</h2>
+                                    <p class="tech__text">
+                                        Стандартизированный язык разметки документов для просмотра
+                                        веб-страниц в браузере.
+                                        Проще говоря с помощью него мы создаем элементы на странице</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech__box">
+                                    <img src="./img/css.svg" alt="" class="tech__img">
+                                    <h2 class="tech__name">CSS</h2>
+                                    <p class="tech__text">
+                                        Формальный язык описания внешнего вида документа, написанного
+                                        с использованием языка разметки.
+                                        Проще говоря с помощью него мы меняем созданные HTML элементы
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech__box">
+                                    <img src="./img/js.svg" alt="" class="tech__img">
+                                    <h2 class="tech__name">JavaScript</h2>
+                                    <p class="tech__text">
+                                        Мультипарадигменный язык программирования. Поддерживает
+                                        объектно-ориентированный, императивный и функциональный стили.
+                                        Проще говоря с помощью него мы наделяем функционалом наши элементы
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tech__box">
+                                    <img src="./img/greensock.svg" alt="" class="tech__img">
+                                    <h2 class="tech__name">GSAP</h2>
+                                    <p class="tech__text">
+                                        Это простая в использовании библиотека JavaScript для веб-анимации. Она
+                                        позволяет анимировать практически все, к чему можно получить доступ с помощью
+                                        JavaScript, включая SVG, общие объекты, холсты и многое другое.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination tech__bullets"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="portfolio">
+        <div class="container">
+            <div class="portfolio__content">
+                <div class="portfolio__top">
+                    <h2 class="portfolio__title">
+                        ОЦЕНИ НАШИ ПРОЕКТЫ :3
+                    </h2>
+                    <p class="portfolio__descr">
+                        проекты
+                        дизайнеров и программистов
+                        предлагаем оценить труд студентов
+                    </p>
+                </div>
+                <div class="portfolio__bottom">
+                    <div class="portfolio__sidebar">
+
+                    </div>
+                    <div class="portfolio__main">
+
+                        <div class="tabs">
+                            <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                            <label for="tab-btn-1">Все</label>
+                            <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                            <label for="tab-btn-2">Полезные</label>
+                            <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                            <label for="tab-btn-3">Интересные</label>
+                            <input type="radio" name="tab-btn" id="tab-btn-4" value="">
+                            <label for="tab-btn-4">Дизайнерские</label>
+
+                            <div id="content-1">
+                                <div class="tabs__sector">
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/Сейтек ПИ-4-21(Муслим)/index.html">
+                                            <img src="./img/projects/hotcoffee.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="https://seitek2002.github.io/predom/">
+                                            <img src="./img/projects/predom.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="https://seitek2002.github.io/number-8/">
+                                            <img src="./img/projects/number-8.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="https://seitek2002.github.io/larik/">
+                                            <img src="./img/projects/collusion.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-1/index.html">
+                                            <img src="./img/projects/design-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-2/index.html">
+                                            <img src="./img/projects/design-2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-3/index.html">
+                                            <img src="./img/projects/design-3.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-4/index.html">
+                                            <img src="./img/projects/design-4.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="content-2">
+                                <div class="tabs__sector">
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/Сейтек ПИ-4-21(Муслим)/index.html">
+                                            <img src="./img/projects/hotcoffee.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="https://seitek2002.github.io/number-8/">
+                                            <img src="./img/projects/number-8.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="https://seitek2002.github.io/larik/">
+                                            <img src="./img/projects/collusion.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="content-3">
+                                <div class="tabs__sector">
+                                    <div class="tabs__box">
+                                        <a href="https://seitek2002.github.io/predom/">
+                                            <img src="./img/projects/predom.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/Сейтек ПИ-4-21(Муслим)/index.html">
+                                            <img src="./img/projects/hotcoffee.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-2/index.html">
+                                            <img src="./img/projects/design-2.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="content-4">
+                                <div class="tabs__sector">
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-1/index.html">
+                                            <img src="./img/projects/design-1.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-2/index.html">
+                                            <img src="./img/projects/design-2.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-3/index.html">
+                                            <img src="./img/projects/design-3.png" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="tabs__box">
+                                        <a href="./portfolio/design-4/index.html">
+                                            <img src="./img/projects/design-4.png" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="review">
+        <div class="container">
+            <div class="review__content">
+                <div class="review__left">
+                    <h2 class="review__title">
+                        слова студентов
+                    </h2>
+                    <span class="review__subtitle">
+                        Отзывы
+                    </span>
+                </div>
+                <div class="review__right">
+                    <div class="review__swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="review__box">
+                                    <div class="review__author">
+                                        <img src="./img/review-1.png" alt="" class="review__ava">
+                                        <div class="review__by">
+                                            <h2 class="review__name">
+                                                adelina zhorobaeva
+                                            </h2>
+                                            <span class="review__group">
+                                                ДПО-1-21
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="review__text">
+                                        Думаю это тот самый бесценный опыт,который пригодится в будущем.Я благодарна
+                                        нашему преподавателю по программировании за приглашение в этот проект
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review__box">
+                                    <div class="review__author">
+                                        <img src="./img/review-2.png" alt="" class="review__ava">
+                                        <div class="review__by">
+                                            <h2 class="review__name">
+                                                aydin
+                                            </h2>
+                                            <span class="review__group">
+                                                Microsoft
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="review__text">
+                                        Я не знаю что мне сюда написать
+                                        Так что напишу что этот сайт
+                                        очень хороший,
+                                        Спасибо за внимание!
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="review__box">
+                                    <div class="review__author">
+                                        <img src="./img/review-1.png" alt="" class="review__ava">
+                                        <div class="review__by">
+                                            <h2 class="review__name">
+                                                adelina zhorobaeva
+                                            </h2>
+                                            <span class="review__group">
+                                                ДПО-1-21
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <p class="review__text">
+                                        Думаю это тот самый бесценный опыт,который пригодится в будущем.Я благодарна
+                                        нашему преподавателю по программировании за приглашение в этот проект
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__swiper-button-prev review__btn"></div>
+                    <div class="review__swiper-button-next review__btn"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features">
+        <div class="container">
+            <div class="features__content">
+                <div class="features__top">
+                    <div class="features__left">
+                        <h2 class="features__title">
+                            преимущества наших направлении
+                        </h2>
+                    </div>
+                    <div class="features__right">
+                        <p class="features__descr">
+                            в этом блоке вы можете изучить подробнее специальности,которые востребованы в 21 веке.
+                        </p>
+                    </div>
+                </div>
+                <div class="features__sector">
+                    <div class="features__box">
+                        <img src="./img/features-1.png" alt="" class="features__img">
+                        <h2 class="features__name">
+                            дизайнеры
+                        </h2>
+                        <h3 class="features__description">
+                            человек, занимающийся художественно-технической деятельностью в разных отраслях
+                        </h3>
+                        <a href="www.comtehno.kg/specialty/" class="features__link">
+                            подробнее
+                        </a>
+                    </div>
+                    <div class="features__box">
+                        <img src="./img/features-2.png" alt="" class="features__img">
+                        <h2 class="features__name">
+                            программисты
+                        </h2>
+                        <h3 class="features__description">
+                            Это кадры, основополагающие будущего развития и цифровизации
+                        </h3>
+                        <a href="www.comtehno.kg/specialty/" class="features__link">
+                            подробнее
+                        </a>
+                    </div>
+                    <div class="features__box">
+                        <img src="./img/features-3.png" alt="" class="features__img">
+                        <h2 class="features__name">
+                            экономисты
+                        </h2>
+                        <h3 class="features__description">
+                            специалист в экономике или её разделах, эксперт по экономическим вопросам промышленности, сельского хозяйства, банковского дела и так далее.
+                        </h3>
+                        <a href="www.comtehno.kg/specialty/" class="features__link">
+                            подробнее
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

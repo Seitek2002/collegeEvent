@@ -1,0 +1,20 @@
+header {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 24px;
+}
+
+.header__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__list {
+    list-style: none;
+    display: flex;
+}
+
+.header__list li {
+    margin-left: 30px;
+}
